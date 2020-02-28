@@ -66,6 +66,23 @@ let config = {
           }
         ]
       },
+      // Fonts : https://chriscourses.com/blog/loading-fonts-webpack
+      {
+        test: /\.(woff(2)?|ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            // Nom du fichier final dans le dossier public
+            name: '[name].[ext]',
+            // Chemin dans le dossier public
+            outputPath: 'fonts/',
+            // Chemin par rapport au fichier CSS dans le dossier public
+            publicPath: '../fonts',
+            // Permet de désactiver le traitement du publicPath comme un module JS
+            esModule: false
+          }
+        }
+      }
     ]
   },
   // Configuration du serveur de développement qui rechargera automatiquement les contenus lors d'un changement
@@ -74,7 +91,7 @@ let config = {
     hot: true,
     watchContentBase: true,
     port: 3100,
-    host: '0.0.0.0',
+    host: 'localhost',
     before: function(app, server) {
       // Gestion manuelle de la recharge tous les websockets de watching à la modification des fichiers HTML à l'aide de chokidar
       chokidar.watch([
@@ -110,13 +127,13 @@ const plugins = [
   new webpack.HotModuleReplacementPlugin(),
   new BrowserSyncPlugin(
     {
-      host: '0.0.0.0',
+      host: 'localhost',
       port: 3000,
       proxy: 'http://localhost:3100/',
       open: 'external',
     },
     {
-      // Browsersync ne se charge pas du reload, c'est le rôle du Dev Server
+      // Browsersync ne se charge pas du reload, est le rôle du Dev Server
       reload: false
     }
   ),
