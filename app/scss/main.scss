@@ -4,124 +4,15 @@
 @import 'abstracts/variables';
 
 // 2. Vendors        
- @import '~reset-css/sass/reset',
-         '~font-awesome/scss/font-awesome';
-        
+@import '~reset-css/sass/reset',
+'~font-awesome/scss/font-awesome';
+
 // 3 - Import de la base
 @import 'base/base';
 
 // 4 - Import des layouts
-
+@import 'layout/header';
 
 // 5 - Import des components
-@import 'components/footer';
-
-.header{
-    //background: linear-gradient(to left, #031FAB 0%,#4c96d7 100%);
-}
-header  ul 
-{
-    background: linear-gradient(to right, #031FAB 0%,#4c96d7 100%);
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    margin: 0;
-    padding: 20px 0;
-    display: flex;
-    border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0,0,0,.3);
-}
-
-header ul li
-{
-    list-style: none;
-    text-align: center;
-    display: block;
-    border-right: 1px solid rgba(0,0,0,0.2);
-}
-
-header ul li:last-child
-{
-    border-right: none;
-}
-
-header ul li a
-{
-    text-decoration: none;
-    padding: 0 50px;
-    display: block;
-}
-
-header ul li a .header__menu__icon
-{
-    width: 40px;
-    height: 28px;
-    text-align: center;
-    overflow: hidden;
-    margin: 0 auto 10px;
-}
-
-header ul li a .header__menu__icon .fa
-{
-    width: 100%;
-    height: 100%;
-    line-height: 30px;
-    font-size: 25px;
-    transition: 0.5s;
-    color: #fff347;
-}
-
-header ul li a .header__menu__icon .fa:last-child
-{
-    color: #e60013;
-}
-
-header ul li a:hover .header__menu__icon .fa
-{
-    transform: translateY(-100%);
-}
-
-header ul li a .header__menu__name
-{
-    position: relative;
-    height: 20px;
-    width: 100%;
-    display: block;
-    overflow: hidden;
-}
-
-header ul li a .header__menu__name span
-{
-    display: block;
-    position: relative;
-    color: #fff347;
-    font-size: 20px;
-    line-height: 20px;
-    transition: 0.5s;
-}
-
-header ul li a .header__menu__name span:before
-{
-    content: attr(data-text);
-    position: absolute;
-    top: -100%;
-    left: 0;
-    width: 100%;
-    height:100%;
-    color: #e91e63;
-}
-
-header ul li a:hover .header__menu__name span
-{
-    transform: translateY(20px);
-}
-
-  
-  
- 
-  
-  
-  
-  
-  
+@import 'components/footer',
+        'components/nav';
