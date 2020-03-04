@@ -5,14 +5,11 @@
 
 // 2. Vendors        
 @import '~reset-css/sass/reset',
-'~font-awesome/scss/font-awesome';
+        '~bootstrap/scss',
+        '~font-awesome/scss/font-awesome';
 
 // 3 - Import de la base
 @import 'base/base';
 
-// 4 - Import des layouts
-@import 'layout/header';
+// 3 - Import des layouts
 
-// 5 - Import des components
-@import 'components/footer',
-        'components/nav';
