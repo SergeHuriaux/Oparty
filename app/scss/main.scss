@@ -4,12 +4,17 @@
 @import 'abstracts/variables';
 
 // 2. Vendors        
-@import '~reset-css/sass/reset',
-        '~bootstrap/scss',
+@import 
+// '~reset-css/sass/reset',
+//         '~bootstrap/scss',
         '~font-awesome/scss/font-awesome';
 
 // 3 - Import de la base
 @import 'base/base';
 
 // 3 - Import des layouts
+@import 'layout/theme';
+
+// 4 - Import des components
+@import 'components/categoryHome';
 
