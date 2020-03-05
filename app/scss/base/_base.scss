@@ -1,8 +1,18 @@
 * {
     box-sizing: border-box;
+    
+}
+
+html {
+    background-color: $color-bg;
 }
 
 body{
-    max-width: 1500px;
+    background-color: $color-bg;
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
 }

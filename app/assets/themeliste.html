@@ -2,132 +2,203 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>oParty</title>
-    <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>oParty</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-    <!--NAV-BAR- HEADER-->
-    <header class="header">
-        <div class="header__logo">
-          <a href="#"><img src="images/logo.png" alt=""></a>
-        </div>
-        <div class="header__menu">
-          <ul class="header__menu__ul">
-            <li class="header__menu__ul__li">
-              <a class="header__menu__ul__li__a" href="#">
-                <div class="header__menu__ul__li__a__icon">
-                  <i class="fa fa-birthday-cake header__menu__ul__li__a__icon__i" aria-hidden="true"></i>
-                  <i class="fa fa-birthday-cake header__menu__ul__li__a__icon__i" aria-hidden="true"></i>
-                </div>
-                <div class="header__menu__ul__li__a__name"><span data-text="Thèmes">Thèmes</span></div>
-              </a>
-            </li>
-            <li class="header__menu__ul__li">
-              <a class="header__menu__ul__li__a" href="#">
-                <div class="header__menu__ul__li__a__icon">
-                  <i class="fa fa-users header__menu__ul__li__a__icon__i"></i>
-                  <i class="fa fa-users header__menu__ul__li__a__icon__i"></i>
-                </div>
-                <div class="header__menu__ul__li__a__name"><span data-text="Qui somme-nous?">Qui sommes-nous?</span></div>
-              </a>
-            </li>
-            <li class="header__menu__ul__li">
-              <a class="header__menu__ul__li__a" href="#">
-                <div class="header__menu__ul__li__a__icon">
-                  <i class="fa fa-address-book header__menu__ul__li__a__icon__i" aria-hidden="true"></i>
-                  <i class="fa fa-address-book header__menu__ul__li__a__icon__i" aria-hidden="true"></i>
-                </div>
-                <div class="header__menu__ul__li__a__name"><span data-text="Contact">Contact</span></div>
-              </a>
-            </li>
-            <li class="header__menu__ul__li">
-              <a class="header__menu__ul__li__a" href="#">
-                <div class="header__menu__ul__li__a__icon">
-                  <i class="fa fa-book header__menu__ul__li__a__icon__i"></i>
-                  <i class="fa fa-book header__menu__ul__li__a__icon__i"></i>
-                </div>
-                <div class="header__menu__ul__li__a__name"><span data-text="Livre d'or">Livre d'or</span></div>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="header__search">
-          <form id="header__search__content">
-            <input type="text" name="input" class="header__search__input" id="search-input">
-            <button type="reset" class="header__search__search" id="search-btn"></button>
-          </form>
-        </div>
-      </header>
-    <aside>
-        <h3>Câtégorie d'âge :</h3>
-        <div>
-            <div><input type="checkbox" name="age1" value="age1" id="age1"><label for="age1">3 à 6 ans</label></div>
-            <div><input type="checkbox" name="age2" value="age2" id="age2"><label for="age2">6 à 9 ans</label></div>
-            <div><input type="checkbox" name="age3" value="age3" id="age3"><label for="age3">9 à 13 ans</label></div>
-        </div>
-        <h3>Univers :</h3>
-        <div>
-            <div><input type="checkbox" name="clown" value="clown" id="clown"><label for="clown">Clown</label></div>
-            <div><input type="checkbox" name="pirate" value="pirate" id="pirate"><label for="pirate">Pirates</label>
-            </div>
-            <div><input type="checkbox" name="princesse" value="princesse" id="princesse"><label
-                    for="princesse">Princesse</label></div>
-            <div><input type="checkbox" name="football" value="football" id="football"><label
-                    for="football">Football</label></div>
-            <div><input type="checkbox" name="superHero" value="superHero" id="superHero"><label for="superHero">Super
-                    Héro</label></div>
-        </div>
-    </aside>
-    <section class="listTheme">
-        <h2 class="listTheme__title">Liste des thèmes</h2>
-        <div class="listTheme__content">
-            <div class="listTheme__content__card">
-                <div class="listTheme__content__card__content">
-                    <h3 class="listTheme__content__card__content--title">Mountain View</h3>
-                    <p class="listTheme__content__card__content--copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed
-                        it, the mountains</p>
-                    <a class="listTheme__content__card__content--btn">View Trips</a>
-                </div>
-            </div>
-            <div class="listTheme__content__card">
-                <div class="listTheme__content__card__content">
-                    <h3 class="listTheme__content__card__content--title">Mountain View</h3>
-                    <p class="listTheme__content__card__content--copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed
-                        it, the mountains</p>
-                    <a class="listTheme__content__card__content--btn">View Trips</a>
-                </div>
-            </div>
-            <div class="listTheme__content__card">
-                <div class="listTheme__content__card__content">
-                    <h3 class="listTheme__content__card__content--title">Mountain View</h3>
-                    <p class="listTheme__content__card__content--copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed
-                        it, the mountains</p>
-                    <a class="listTheme__content__card__content--btn">View Trips</a>
-                </div>
-            </div>
-            <div class="listTheme__content__card">
-                <div class="listTheme__content__card__content">
-                    <h3 class="listTheme__content__card__content--title">Mountain View</h3>
-                    <p class="listTheme__content__card__content--copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed
-                        it, the mountains</p>
-                    <a class="listTheme__content__card__content--btn">View Trips</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer class="footer">
-        <ul class="footer__ul">
-            <li class="footer__ul__li"><a class="footer__ul__li__a" href="#"><i class="fa fa-facebook-f footer__ul__li__a__i"></i></a></li>
-            <li class="footer__ul__li"><a class="footer__ul__li__a" href="#"><i class="fa fa-instagram footer__ul__li__a__i"></i></a></li>
-            <li class="footer__ul__li"><a class="footer__ul__li__a" href="#"><i class="fa fa-twitter footer__ul__li__a__i"></i></a></li>
-            <li class="footer__ul__li"><a class="footer__ul__li__a" href="#"><i class="fa fa-linkedin footer__ul__li__a__i" aria-hidden="true"></i></a></li>
-            <li class="footer__ul__li"><a class="footer__ul__li__a" href="#"><i class="fa fa-gavel footer__ul__li__a__i" aria-hidden="true"></i></a></li>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand text-center" href="#">
+        <h1>o'Party</h1>
+        <h5>Pour une fête sans prise de tête</h5>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Thèmes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Qui sommes-nous?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Livres d'or</a>
+          </li>
         </ul>
-    </footer>
-    <script src="js/app.js"></script>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+  <div class="listing">
+    <aside class="nav-side-menu">
+      <div class="brand">Filtrez les catégories</div>
+      <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+      <div class="menu-list">
+        <ul id="menu-content" class="menu-content collapse out">
+          <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+          <div class="menu-list">
+            <ul id="menu-content" class="menu-content">
+              <h4><i class="fa fa-gift fa-lg"></i>Thèmes par catégories d'âges</h4>
+              <ul>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="age1" id="age1">
+                  <label class="form-check-label" for="age1">3 à 6 ans</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="age2" id="age2">
+                  <label class="form-check-label" for="age2">6 à 9 ans</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="age3" id="age3">
+                  <label class="form-check-label" for="age3">9 à 13 ans</label>
+                </div>
+              </ul>
+              <h4><i class="fa fa-globe fa-lg"></i>Thèmes par univers</h4>
+              <ul>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="cat_clown" id="cat_clown">
+                  <label class="form-check-label" for="cat_clown">Clown</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="cat_pirate" id="cat_pirate">
+                  <label class="form-check-label" for="cat_pirate">Pirate</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="cat_princesse" id="cat_princesse">
+                  <label class="form-check-label" for="cat_princesse">Princesse</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="cat_foot" id="cat_foot">
+                  <label class="form-check-label" for="cat_foot">Football</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="cat_hero" id="cat_hero">
+                  <label class="form-check-label" for="cat_hero">Super-héros</label>
+                </div>
+              </ul>
+            </ul>
+          </div>
+    </aside>
+    <section class="listing__theme">
+      <h2 class="listTheme__title">Liste des thèmes</h2>
+      <div class="listTheme__content">
+          <div class="listTheme__content__card" style="background-image: url('images/miam7.jpg')">
+              <div class="listTheme__content__card__content">
+                  <h3 class="listTheme__content__card__content--title">Mountain View</h3>
+                  <p class="listTheme__content__card__content--copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed
+                      it, the mountains</p>
+                  <a class="listTheme__content__card__content--btn">View Trips</a>
+              </div>
+          </div>
+          <div class="listTheme__content__card" style="background-image: url('images/miam7.jpg')">
+              <div class="listTheme__content__card__content">
+                  <h3 class="listTheme__content__card__content--title">Mountain View</h3>
+                  <p class="listTheme__content__card__content--copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed
+                      it, the mountains</p>
+                  <a class="listTheme__content__card__content--btn">View Trips</a>
+              </div>
+          </div>
+          <div class="listTheme__content__card" style="background-image: url('images/miam7.jpg')">
+              <div class="listTheme__content__card__content">
+                  <h3 class="listTheme__content__card__content--title">Mountain View</h3>
+                  <p class="listTheme__content__card__content--copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed
+                      it, the mountains</p>
+                  <a class="listTheme__content__card__content--btn">View Trips</a>
+              </div>
+          </div>
+          <div class="listTheme__content__card"  style="background-image: url('images/miam7.jpg')">
+              <div class="listTheme__content__card__content">
+                  <h3 class="listTheme__content__card__content--title">Mountain View</h3>
+                  <p class="listTheme__content__card__content--copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed
+                      it, the mountains</p>
+                  <a class="listTheme__content__card__content--btn">View Trips</a>
+              </div>
+          </div>
+          <div class="listTheme__content__card" style="background-image: url('images/miam7.jpg')">
+            <div class="listTheme__content__card__content">
+                <h3 class="listTheme__content__card__content--title">Mountain View</h3>
+                <p class="listTheme__content__card__content--copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed
+                    it, the mountains</p>
+                <a class="listTheme__content__card__content--btn">View Trips</a>
+            </div>
+        </div>
+        <div class="listTheme__content__card" style="background-image: url('images/miam7.jpg')">
+            <div class="listTheme__content__card__content">
+                <h3 class="listTheme__content__card__content--title">Mountain View</h3>
+                <p class="listTheme__content__card__content--copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed
+                    it, the mountains</p>
+                <a class="listTheme__content__card__content--btn">View Trips</a>
+            </div>
+        </div>
+        <div class="listTheme__content__card" style="background-image: url('images/miam7.jpg')">
+            <div class="listTheme__content__card__content">
+                <h3 class="listTheme__content__card__content--title">Mountain View</h3>
+                <p class="listTheme__content__card__content--copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed
+                    it, the mountains</p>
+                <a class="listTheme__content__card__content--btn">View Trips</a>
+            </div>
+        </div>
+        <div class="listTheme__content__card"  style="background-image: url('images/miam7.jpg')">
+            <div class="listTheme__content__card__content">
+                <h3 class="listTheme__content__card__content--title">Mountain View</h3>
+                <p class="listTheme__content__card__content--copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed
+                    it, the mountains</p>
+                <a class="listTheme__content__card__content--btn">View Trips</a>
+            </div>
+        </div>
+      </div>
+  </section>
+  </div>
+  <footer class="footer">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center">
+            <a href="#" class="fb-ic">
+              <i class="fa fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a href="#" class="tw-ic">
+              <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a href="#" class="gplus-ic">
+              <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a href="#" class="ins-ic">
+              <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a href="#" class="pin-ic">
+              <i class="fa fa-gavel fa-lg white-text fa-2x"> </i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
 </body>
 
 </html>
