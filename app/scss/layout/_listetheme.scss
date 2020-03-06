@@ -11,11 +11,10 @@
 
             @media (min-width: $breakpoint-large) {
                   width: 60%;
+                  margin: 0 auto;
             }
       }
 }
-
-@import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
 
 :root {
       --d: 700ms;
@@ -32,9 +31,9 @@
       display: grid;
       grid-gap: 1rem;
       padding: 1rem;
-      max-width: 1024px;
       margin: 0 auto;
       font-family: var(--font-sans);
+      
 }
 
 @media (min-width: $breakpoint-medium) {

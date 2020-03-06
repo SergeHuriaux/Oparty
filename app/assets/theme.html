@@ -12,9 +12,17 @@
 
 <body>
   <header class="header">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand text-center" href="#"><h1>o'Party</h1>
-        <h5>Pour une fête sans prise de tête</h5></a>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+
+      <div class="logo-texte">
+        <a class="navbar-brand text-center" href="#">
+          <h1 class="title--site"><span class="lettre">o</span><span class="lettre">'</span><span
+              class="lettre">P</span><span class="lettre">a</span><span class="lettre">r</span><span
+              class="lettre">t</span><span class="lettre">y</span></h1>
+          <h5 class="slogan">Pour une fête sans prise de tête</h5>
+        </a>
+      </div>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -22,95 +30,126 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
+          <!--Link Thèmes-->
           <li class="nav-item">
-            <a class="nav-link" href="#">Thèmes</a>
+            <a class="nav-link" href="#">
+              <div class="icon">
+                <i class="fa fa-birthday-cake header__menu__ul__li__a__icon__i" aria-hidden="true"></i>
+                <i class="fa fa-birthday-cake header__menu__ul__li__a__icon__i" aria-hidden="true"></i>
+              </div>
+              <div class="name"><span data-text="Thémes">Thèmes</span></div>
+            </a>
           </li>
+          <!--Link Qui sommes-nous?-->
           <li class="nav-item">
-            <a class="nav-link" href="#">Qui sommes-nous?</a>
+            <a class="nav-link" href="#">
+              <div class="icon">
+                <i class="fa fa-users header__menu__ul__li__a__icon__i"></i>
+                <i class="fa fa-users header__menu__ul__li__a__icon__i"></i>
+              </div>
+              <div class="name"><span data-text="Notre équipe">Notre équipe</span></div>
+            </a>
           </li>
+          <!--Link Contact-->
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#">
+              <div class="icon">
+                <i class="fa fa-envelope header__menu__ul__li__a__icon__i" aria-hidden="true"></i>
+                <i class="fa fa-envelope header__menu__ul__li__a__icon__i" aria-hidden="true"></i>
+              </div>
+              <div class="name"><span data-text="Contact">Contact</span></div>
+            </a>
           </li>
+          <!--Livre d'or-->
           <li class="nav-item">
-            <a class="nav-link" href="#">Livres d'or</a>
+            <a class="nav-link" href="#">
+              <div class="icon">
+                <i class="fa fa-book header__menu__ul__li__a__icon__i"></i>
+                <i class="fa fa-book header__menu__ul__li__a__icon__i"></i>
+              </div>
+              <div class="name"><span data-text="Livre d'or">Livre d'or</span></div>
+            </a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <form class="form-inline d-flex justify-content-center md-form form-sm  my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline my-2 my-sm-0" type="submit"><i class="fa fa-search"
+              aria-hidden="true"></i></button>
         </form>
       </div>
     </nav>
   </header>
-    <section class="theme">
-      <h2 class="theme__title">Clown</h2>
-      <img class="theme__image" src="images/clowns.jpg" alt="">
-      <div class="theme__preso">
+  <section class="theme">
+    <h2><i class="fa fa-gift">Thèmes : Clown</i></h2>
+    <div class="theme__top">
+      <img class="theme__top__image" src="images/clowns.jpg" alt="">
+      <div class="theme__top__preso">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia eum error provident nemo pariatur magnam
           atque, dolore odio necessitatibus! Obcaecati voluptatum harum, modi amet unde cum autem veniam quisquam eaque,
           aut officiis tempora! Minus, pariatur ut accusantium, facilis quod dolore dolorem ab, nemo natus laboriosam
           quisquam recusandae quasi nobis! Quisquam.</p>
       </div>
-      <div class="eventInfo">
-        <div class="themeCard theme__deroule">
-          <h3 class="theme__deroule--title">Déroulé de la journée</h3>
-          <ul>
-            <li>lorem</li>
-            <li>lorem</li>
-            <li>lorem</li>
-            <li>lorem</li>
-            <li>lorem</li>
-            <li>lorem</li>
-          </ul>
-        </div>
-        <div class="themeCard theme__infos">
-          <h3 class="theme__infos--title">Infos pratiques</h3>
-          <ul>
-            <li>lorem</li>
-            <li>lorem</li>
-            <li>lorem</li>
-            <li>lorem</li>
-            <li>lorem</li>
-            <li>lorem</li>
-          </ul>
-        </div>
+    </div>
+    <div class="theme__eventInfo">
+      <div class="theme__eventInfo__deroule">
+        <h3 class="theme__eventInfo__deroule--title">Déroulé de la journée</h3>
+        <ul class="theme__ul">
+          <li>lorem</li>
+          <li>lorem</li>
+          <li>lorem</li>
+          <li>lorem</li>
+          <li>lorem</li>
+          <li>lorem<i class="fa fa-user-tie"></i></li>
+        </ul>
       </div>
-    </section>
-    <footer class="footer">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-md-12 py-5">
-            <div class="mb-5 flex-center">
-              <a href="#" class="fb-ic">
-                <i class="fa fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-              </a>
-              <a href="#" class="tw-ic">
-                <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-              </a>
-              <a href="#" class="gplus-ic">
-                <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-              </a>
-              <a href="#" class="ins-ic">
-                <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-              </a>
-              <a href="#" class="pin-ic">
-                <i class="fa fa-gavel fa-lg white-text fa-2x"> </i>
-              </a>
-            </div>
+      <div class="theme__eventInfo__infos">
+        <h3 class="theme__eventInfo__infos--title">Infos pratiques</h3>
+        <ul class="theme__ul theme__eventInfo__infos--ul">
+          <li><i class="fa fa-angellist"></i>lorem</li>
+          <li>lorem</li>
+          <li><i class="fa fa-fort-awesome"></i>lorem</li>
+          <li><i class="fa fa-dove"></i>lorem</li>
+          <li>lorem</li>
+          <li>lorem</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center">
+            <a href="#" class="fb-ic">
+              <i class="fa fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a href="#" class="tw-ic">
+              <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a href="#" class="gplus-ic">
+              <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a href="#" class="ins-ic">
+              <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a href="#" class="pin-ic">
+              <i class="fa fa-gavel fa-lg white-text fa-2x"> </i>
+            </a>
           </div>
         </div>
       </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"></script>
-    <script src="js/app.js"></script>
-  </body>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
+</body>
 
-  </html>
+</html>

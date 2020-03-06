@@ -12,93 +12,83 @@
 
 <body>
   <header class="header">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand text-center" href="#">
-        <h1>o'Party</h1>
-        <h5>Pour une fête sans prise de tête</h5>
-      </a>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+
+      <div class="logo-texte">
+        <a class="navbar-brand text-center" href="#">
+          <h1 class="title--site"><span class="lettre">o</span><span class="lettre">'</span><span
+              class="lettre">P</span><span class="lettre">a</span><span class="lettre">r</span><span
+              class="lettre">t</span><span class="lettre">y</span></h1>
+          <h5 class="slogan">Pour une fête sans prise de tête</h5>
+        </a>
+      </div>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
+          <!--Link Thèmes-->
           <li class="nav-item">
-            <a class="nav-link" href="#">Thèmes</a>
+            <a class="nav-link" href="#">
+              <div class="icon">
+                <i class="fa fa-birthday-cake header__menu__ul__li__a__icon__i" aria-hidden="true"></i>
+                <i class="fa fa-birthday-cake header__menu__ul__li__a__icon__i" aria-hidden="true"></i>
+              </div>
+              <div class="name"><span data-text="Thémes">Thèmes</span></div>
+            </a>
           </li>
+          <!--Link Qui sommes-nous?-->
           <li class="nav-item">
-            <a class="nav-link" href="#">Qui sommes-nous?</a>
+            <a class="nav-link" href="#">
+              <div class="icon">
+                <i class="fa fa-users header__menu__ul__li__a__icon__i"></i>
+                <i class="fa fa-users header__menu__ul__li__a__icon__i"></i>
+              </div>
+              <div class="name"><span data-text="Notre équipe">Notre équipe</span></div>
+            </a>
           </li>
+          <!--Link Contact-->
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#">
+              <div class="icon">
+                <i class="fa fa-envelope header__menu__ul__li__a__icon__i" aria-hidden="true"></i>
+                <i class="fa fa-envelope header__menu__ul__li__a__icon__i" aria-hidden="true"></i>
+              </div>
+              <div class="name"><span data-text="Contact">Contact</span></div>
+            </a>
           </li>
+          <!--Livre d'or-->
           <li class="nav-item">
-            <a class="nav-link" href="#">Livres d'or</a>
+            <a class="nav-link" href="#">
+              <div class="icon">
+                <i class="fa fa-book header__menu__ul__li__a__icon__i"></i>
+                <i class="fa fa-book header__menu__ul__li__a__icon__i"></i>
+              </div>
+              <div class="name"><span data-text="Livre d'or">Livre d'or</span></div>
+            </a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <form class="form-inline d-flex justify-content-center md-form form-sm  my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline my-2 my-sm-0" type="submit"><i class="fa fa-search"
+              aria-hidden="true"></i></button>
         </form>
       </div>
     </nav>
   </header>
-
-
-
   <section class="golden__book">
-    <h2 class="title__golden__book">Livre d'or</h2>    
-    <!-- <div class="carrousel__golden__book">
-      <input type="radio" name="slides" id="radio-1" checked>
-      <input type="radio" name="slides" id="radio-2">
-      <input type="radio" name="slides" id="radio-3">
-      <input type="radio" name="slides" id="radio-4">
-      <ul class="slides">
-        <li class="slide">
-          <p>
-            <q> I like Unicorn </q>
-            <span class="author">
-              <img
-                src="https://th.thgim.com/news/international/m1m01s/article26984481.ece/alternates/FREE_300/30TH-TOLKIEN">
-              Luc La Paillette
-            </span>
-          </p>
-        </li>
-        <li class="slide">
-          <p>
-            <q> Atchoum, atchoum et atchoum </q>
-            <span class="author">
-              <img src="https://i.pinimg.com/736x/3f/c5/87/3fc587af121759209c53132a71c03c97--record-player-swing.jpg">
-              Christophe Kleenex
-            </span>
-          </p>
-        </li>
-        <li class="slide">
-          <p>
-            <q> Je vous casse les genoux! </q>
-            <span class="author">
-              <img src="https://pbs.twimg.com/profile_images/1832861297/GordonShumway12.jpg">
-              Pierre Carambar
-            </span>
-          </p>
-        </li>
-        <li class="slide">
-          <p>
-            <q> Et BIM dans ta face! </q>
-            <span class="author">
-              <img src="http://www.claudiobernasconi.ch/wp-content/uploads/2014/03/github_octocat-300x300.jpg">
-              Gyom Sirop d'Erable
-            </span>
-          </p>
-        </li>
-      </ul>
-      <div class="slidesNavigation">
-        <label for="radio-1" id="dotForRadio-1"></label>
-        <label for="radio-2" id="dotForRadio-2"></label>
-        <label for="radio-3" id="dotForRadio-3"></label>
-        <label for="radio-4" id="dotForRadio-4"></label>
-      </div>
-    </div>  -->
+    <h2 class="titleRow skew-title">  
+      <span>l</span><span>i</span><span>v</span><span>r</span><span>E</span><span class="last">S</span>
+      &nbsp; 
+      <span class="last">d</span>
+      &nbsp;
+      <span class="last">'</span>
+      &nbsp;
+      <span>o</span><span class="last">r</span>       
+    </h2>   
     <div class='wrapper'>
       <div class='carousel2'>
         <div class='carousel__item'>

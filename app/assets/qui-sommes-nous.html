@@ -12,9 +12,17 @@
 
 <body>
   <header class="header">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand text-center" href="#"><h1>o'Party</h1>
-        <h5>Pour une fête sans prise de tête</h5></a>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+
+      <div class="logo-texte">
+        <a class="navbar-brand text-center" href="#">
+          <h1 class="title--site"><span class="lettre">o</span><span class="lettre">'</span><span
+              class="lettre">P</span><span class="lettre">a</span><span class="lettre">r</span><span
+              class="lettre">t</span><span class="lettre">y</span></h1>
+          <h5 class="slogan">Pour une fête sans prise de tête</h5>
+        </a>
+      </div>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -22,66 +30,86 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
+          <!--Link Thèmes-->
           <li class="nav-item">
-            <a class="nav-link" href="#">Thèmes</a>
+            <a class="nav-link" href="#">
+              <div class="icon">
+                <i class="fa fa-birthday-cake header__menu__ul__li__a__icon__i" aria-hidden="true"></i>
+                <i class="fa fa-birthday-cake header__menu__ul__li__a__icon__i" aria-hidden="true"></i>
+              </div>
+              <div class="name"><span data-text="Thémes">Thèmes</span></div>
+            </a>
           </li>
+          <!--Link Qui sommes-nous?-->
           <li class="nav-item">
-            <a class="nav-link" href="#">Qui sommes-nous?</a>
+            <a class="nav-link" href="#">
+              <div class="icon">
+                <i class="fa fa-users header__menu__ul__li__a__icon__i"></i>
+                <i class="fa fa-users header__menu__ul__li__a__icon__i"></i>
+              </div>
+              <div class="name"><span data-text="Notre équipe">Notre équipe</span></div>
+            </a>
           </li>
+          <!--Link Contact-->
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#">
+              <div class="icon">
+                <i class="fa fa-envelope header__menu__ul__li__a__icon__i" aria-hidden="true"></i>
+                <i class="fa fa-envelope header__menu__ul__li__a__icon__i" aria-hidden="true"></i>
+              </div>
+              <div class="name"><span data-text="Contact">Contact</span></div>
+            </a>
           </li>
+          <!--Livre d'or-->
           <li class="nav-item">
-            <a class="nav-link" href="#">Livres d'or</a>
+            <a class="nav-link" href="#">
+              <div class="icon">
+                <i class="fa fa-book header__menu__ul__li__a__icon__i"></i>
+                <i class="fa fa-book header__menu__ul__li__a__icon__i"></i>
+              </div>
+              <div class="name"><span data-text="Livre d'or">Livre d'or</span></div>
+            </a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <form class="form-inline d-flex justify-content-center md-form form-sm  my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline my-2 my-sm-0" type="submit"><i class="fa fa-search"
+              aria-hidden="true"></i></button>
         </form>
       </div>
     </nav>
   </header>
-  <section class="adresse">
-    <h2>Où nous trouver</h2>
-    <div class="adresse__info">
-      <div class="adresse__info--adresse">
-        <i class="fa fa-home" aria-hidden="true"></i>
-        <a href="http://bit.ly/3coiHb1">10 RUE DE PENTHIEVRE<br>75008 Paris</a>
-      </div>
-      <div class="adresse__info--phone">
-        <i class="fa fa-phone" aria-hidden="true"></i>
-        <a href="tel:09.74.76.80.67">09.74.76.80.67</a>
-      </div>
-      <div class="adresse__info--mail">
-        <i class="fa fa-envelope" aria-hidden="true"></i>
-        <a href="mailto:oparty.contact@gmail.com">oparty.contact@gmail.com</a>
-      </div>
-    </div>
-    <div class="map-responsive">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.207064377071!2d2.314410015674896!3d48.87332907928889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fc96a59ad85%3A0x59e5a8e8c08efc42!2s10%20Rue%20de%20Penthi%C3%A8vre%2C%2075008%20Paris!5e0!3m2!1sfr!2sfr!4v1583151987326!5m2!1sfr!2sfr"
-        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-    </div>
-  </section>
   <section class="team">
-    <h2>Qui sommes-nous?</h2>
-    <img src="images/team.jpg" alt="">
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem amet illo voluptas autem reiciendis dolor
-      cumque quisquam dicta in facere beatae debitis eum, atque obcaecati modi deleniti tenetur, explicabo labore! Ea
-      eaque optio quidem dolor ut assumenda, aut fuga eveniet nemo quos quod iusto explicabo accusamus veritatis
-      exercitationem porro unde repudiandae mollitia necessitatibus eligendi ad adipisci error at atque. Nihil nostrum
-      odio natus eius impedit? Officiis, voluptatum! Laborum consectetur eos qui! Soluta maiores incidunt ex placeat,
-      quod, quas ad numquam beatae impedit alias minima tenetur consequatur minus tempore nesciunt quidem delectus,
-      temporibus animi vel iusto! Ipsam sunt repudiandae ad, amet inventore asperiores culpa est, recusandae eum
-      nostrum labore veniam. Consequuntur aliquid veritatis, ullam totam est neque ipsa id sit, iusto nesciunt minus
-      magnam nisi perferendis accusamus quidem molestiae? Vitae iure omnis et, voluptatum eveniet sequi fugiat
-      doloribus totam ipsum dolores maiores veniam placeat ducimus. Beatae sapiente adipisci aliquam nobis quaerat
-      debitis soluta quas mollitia non. Commodi tempore et, iure quae pariatur sapiente. Suscipit, vero iure
-      accusantium quam ex rem at quaerat! Explicabo voluptate laudantium voluptatem. Consequuntur enim reiciendis
-      voluptatem harum aliquam possimus culpa ut tenetur obcaecati corrupti repellendus adipisci veniam officiis,
-      alias suscipit debitis ea eaque placeat deserunt rerum est!</p>
-  </section>
+    <h2 class="titleRow skew-title">  
+      <span>q</span><span>u</span><span class="last">i</span>
+      &nbsp; 
+      <span>s</span><span>o</span><span>m</span><span>m</span><span>e</span><span class="last">s</span>
+      &nbsp;
+      <span>n</span><span>o</span><span>u</span><span>s</span><span class="last">?</span>       
+    </h2>
+    <div class="team__top">
+      <img class="team__top__image" src="images/team.jpg" alt="">
+      <div class="team__top__perso">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem amet illo voluptas autem reiciendis dolor
+          cumque quisquam dicta in facere beatae debitis eum, atque obcaecati modi deleniti tenetur, explicabo labore!
+          Ea
+          eaque optio quidem dolor ut assumenda, aut fuga eveniet nemo quos quod iusto explicabo accusamus veritatis
+          exercitationem porro unde repudiandae mollitia necessitatibus eligendi ad adipisci error at atque. Nihil
+          nostrum
+          odio natus eius impedit? Officiis, voluptatum! Laborum consectetur eos qui! Soluta maiores incidunt ex
+          placeat,
+          quod, quas ad numquam beatae impedit alias minima tenetur consequatur minus tempore nesciunt quidem delectus,
+          temporibus animi vel iusto! Ipsam sunt repudiandae ad, amet inventore asperiores culpa est, recusandae eum
+          nostrum labore veniam. Consequuntur aliquid veritatis, ullam totam est neque ipsa id sit, iusto nesciunt minus
+          magnam nisi perferendis accusamus quidem molestiae? Vitae iure omnis et, voluptatum eveniet sequi fugiat
+          doloribus totam ipsum dolores maiores veniam placeat ducimus. Beatae sapiente adipisci aliquam nobis quaerat
+          debitis soluta quas mollitia non. Commodi tempore et, iure quae pariatur sapiente. Suscipit, vero iure
+          accusantium quam ex rem at quaerat! Explicabo voluptate laudantium voluptatem. Consequuntur enim reiciendis
+          voluptatem harum aliquam possimus culpa ut tenetur obcaecati corrupti repellendus adipisci veniam officiis,
+          alias suscipit debitis ea eaque placeat deserunt rerum est!</p>
+      </div>
+    </div>
+  </section>  
   <footer class="footer">
     <div class="container text-center">
       <div class="row">
