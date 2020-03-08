@@ -85,8 +85,9 @@
         <!-- COMPANY INFORMATION -->
         <div class="contact__company">
           <h3 class="contact__company--title">o'Party</h3>
-          <ul>
-            <li class="contact__company--road"><i class="fa fa-road"></i> 67 Rue Henri Dunant, 92700 Colombes, France</li>
+          <ul class="contact__company--ul">
+            <li class="contact__company--road"><i class="fa fa-road"></i> 67 Rue Henri Dunant, 92700 Colombes, France
+            </li>
             <li class="contact__company--phone"><i class="fa fa-phone"></i> (+33) 9 74 76 80 67</li>
             <li class="contact__company--mail"><i class="fa fa-envelope"></i> oparty.contact@gmail.com</li>
           </ul>
@@ -100,17 +101,17 @@
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="name">Nom*</label>
-                <input type="text" class="form-control" id="name">
+                <input type="text" class="form-control" id="name" required>
               </div>
               <div class="form-group col-md-6">
                 <label for="firstname">Prénom*</label>
-                <input type="text" class="form-control" id="firstname">
+                <input type="text" class="form-control" id="firstname" required>
               </div>
             </div>
             <div class="form-row">
               <div class="form-group col-md-8">
                 <label for="mail">Email*</label>
-                <input type="mail" class="form-control" id="mail">
+                <input type="mail" class="form-control" id="mail" required>
               </div>
               <div class="form-group col-md-4">
                 <label for="phone">Téléphone</label>
@@ -130,7 +131,7 @@
                 <label for="age">Age des enfants</label>
                 <input type="number" class="form-control" id="age" ">
               </div>
-              <div class="form-group col-md-3">
+              <div class=" form-group col-md-3">
                 <label for="theme">Thèmes souhaité</label>
                 <select id="theme" class="form-control">
                   <option selected>Choisissez le thème souhaité</option>
@@ -154,6 +155,10 @@
                 <label for="ville">Ville</label>
                 <input type="text" class="form-control" id="ville">
               </div>
+            </div>
+            <div class="form-group">
+              <label for="msg">Entrez votre message</label>
+              <input type="textarea" class="form-control" id="msg">
             </div>
             <div class="form-group">
               <div class="form-check">
@@ -239,7 +244,7 @@
     </div>
     <!-- End .container -->
   </section>
-  <footer class="footer">
+  <footer class="footer">    
     <div class="container text-center">
       <div class="row">
         <div class="col-md-12 py-5">
