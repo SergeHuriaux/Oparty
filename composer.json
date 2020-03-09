@@ -7,7 +7,12 @@
     ],
     "require": {
         "johnpbloch/wordpress": "^5.3",
-        "wpackagist-theme/twentytwenty": "*"
+        "wpackagist-theme/twentytwenty": "*",
+        "wpackagist-plugin/advanced-custom-fields": "*"
+    },
+    "require-dev": {
+        "wpackagist-plugin/simply-show-hooks": "*",
+        "wpackagist-plugin/what-the-file":"1.5.3"
     },
     "extra": {
         "wordpress-install-dir": "wp",
