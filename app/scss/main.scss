@@ -1,23 +1,27 @@
 @charset 'UTF-8';
 
 // 1. Abstracts
-@import 'abstracts/variables';
+@import 
+      'abstracts/variables',
+      'abstracts/mixin';
 
 // 2. Vendors        
 @import // '~reset-css/sass/reset',
 //         '~bootstrap/scss',
-'~font-awesome/scss/font-awesome';
+      '~font-awesome/scss/font-awesome';
 
 // 3 - Import de la base
-@import 'base/base',
-'base/typo';
+@import 
+      'base/base',
+      'base/typo';
 
 // 3 - Import des layouts
-@import 'layout/theme',
-'layout/livre',
-'layout/listetheme',
-'layout/nous',
-'layout/404';
+@import 
+      'layout/theme',
+      'layout/livre',
+      'layout/listetheme',
+      'layout/nous',
+      'layout/404';
 
 // 4 - Import des components
 @import 
@@ -26,6 +30,6 @@
       'components/video',
       'components/contact',
       'components/carousel',
+      'components/footer',
       'components/sidebar';
-
 
