@@ -1,0 +1,27 @@
+#carouselExampleCaptions {
+      .carousel-caption {
+       bottom: 34%;
+       background: rgba(0, 0, 0, 0.5);
+      }
+      
+      img {
+       width: auto;
+       height: 70vh;  
+      }
+      
+      .carousel-indicators li {
+       width: 15px;
+       height: 15px;
+       border-radius: 50%;
+      }
+     }
+
+     .carousel {
+      width: 100%;
+      margin: 1em auto;
+
+      @media (min-width: $breakpoint-large){
+            width: 95%;
+      }
+
+}
