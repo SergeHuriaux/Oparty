@@ -12,7 +12,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark ">
 
       <div class="logo-texte">
-        <a class="navbar-brand text-center" href="#">
+        <a class="navbar-brand text-center" href="<?= home_url(); ?>">
           <h1 class="title--site"><span class="lettre">o</span><span class="lettre">'</span><span
               class="lettre">P</span><span class="lettre">a</span><span class="lettre">r</span><span
               class="lettre">t</span><span class="lettre">y</span></h1>
