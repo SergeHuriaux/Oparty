@@ -1,7 +1,7 @@
 <?php get_header() ?>
 
 <section class="home__top">  
-  <video class="home__top__video" controls autoplay muted loop src="http://localhost/oparty/content/uploads/2020/03/Video.mp4"></video>
+  <video class="home__top__video" controls autoplay muted loop src="http://54.166.157.119/projet-oparty/content/uploads/2020/03/Video.mp4"></video>
 </section>
 <section class="containerHome">
   <h2 class="titleRow skew-title">
