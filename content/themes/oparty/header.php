@@ -49,7 +49,7 @@
           </li>
           <!--Link Contact-->
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="http://localhost/oparty/formulaire-de-contact/">
               <div class="icon">
                 <i class="fa fa-envelope header__menu__ul__li__a__icon__i" aria-hidden="true"></i>
                 <i class="fa fa-envelope header__menu__ul__li__a__icon__i" aria-hidden="true"></i>

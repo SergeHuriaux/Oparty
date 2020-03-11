@@ -8,6 +8,7 @@
     "require": {
         "johnpbloch/wordpress": "^5.3",
         "wpackagist-theme/twentytwenty": "*",
+        "wpackagist-plugin/contact-form-7": "*",
         "wpackagist-plugin/advanced-custom-fields": "*"
     },
     "require-dev": {
