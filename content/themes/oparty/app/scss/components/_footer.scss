@@ -1,5 +1,5 @@
 .social-container {
-    width: 100%;
+    width: 400px;
     margin: 0 auto;
     text-align: center;
 }
@@ -8,7 +8,7 @@
     padding: 0;
     list-style: none;
     margin: 1em;
-
+  
     li {
         display: inline-block;
         margin: 0.15em;
@@ -20,40 +20,30 @@
     i {
         color: #fff;
         position: absolute;
-        top: 17px;
-        left: 17px;
+        top: 21px;
+        left: 21px;
         transition: all $timing ease-out;
-
-        @media (min-width: $breakpoint-large) {
-            top: 21px;
-            left: 21px;
-        }
     }
 
     a {
         display: inline-block;
-
+      
         &:before {
             @include transformScale();
             content: " ";
-            width: 50px;
-            height: 50px;
+            width: 60px;
+            height: 60px;
             border-radius: 100%;
             display: block;
             background: linear-gradient(45deg, $iconColor, $accent);
             transition: all $timing ease-out;
-
-            @media (min-width: $breakpoint-large) {
-                width: 60px;
-                height: 60px;
-            }
         }
-
+        
         &:hover:before {
             transform: scale(0);
             transition: all $timing ease-in;
         }
-
+        
         &:hover i {
             @include transformScale(2.2);
             color: $iconColor;
@@ -63,5 +53,5 @@
             transition: all $timing ease-in;
         }
     }
-
+  
 }
