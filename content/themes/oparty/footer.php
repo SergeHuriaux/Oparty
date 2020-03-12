@@ -8,16 +8,7 @@
         <li><a href="#"><i class="fa fa-gavel"></i></a></li>
       </ul>
     </div> 
-    <form>            
-      <div class="form-row justify-content-center">        
-        <div class="form-group col-md-3">
-          <input type="mail" class="form-control" id="newsletter" placeholder="Incrivez-vous à notre newsletter" required>
-        </div>        
-        <div class="form-group col-md-2">
-          <button type="submit" class="btn btn-primary">Envoyer</button>
-        </div>
-      </div>     
-    </form> 
+    <?php get_template_part('template-parts/newsletter/newsletter'); ?>
   </footer> 
   <?php wp_footer(); ?>
 </body>

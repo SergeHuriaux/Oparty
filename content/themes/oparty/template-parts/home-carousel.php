@@ -8,12 +8,15 @@
 ?>
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">  
   <div class="carousel-inner">
-    <?php if ($wp_query->have_posts()) : while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+    <?php 
+    if ($wp_query->have_posts()) : while ($wp_query->have_posts()) : $wp_query->the_post();
+    $excerpt = get_the_excerpt(); 
+    ?>
     <div class="carousel-item <?php if ($i == 1) echo 'active'; ?>" data-interval="1000">
       <img src="<?php the_post_thumbnail_url(); ?>" class="d-block w-100" alt="...">
       <div class="carousel-caption">
         <h5 class="display-4"><?php the_title() ?></h5>
-        <p><?php the_excerpt() ?></p>
+        <p><?= substr($excerpt, 0, 150); ?></p>
         <a href="<?php the_permalink(); ?>" type="button" class="btn btn-outline-light">Decouvrez</a>
       </div>
     </div>

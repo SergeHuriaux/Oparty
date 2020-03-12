@@ -16,7 +16,6 @@
     <div class='_2'>WAS NOT FOUND</div>
     <a class='btn-404' href='<?= home_url(); ?>'>BACK TO o'Party</a>
   </div>
-  TEST
 </body>
 
 <?php get_footer(); ?>
