@@ -10,7 +10,6 @@ Template Name: Archives des thèmes
       <?php get_template_part('template-parts/aside'); ?>
 
       <section class="listing__theme">
-            <!-- <h2 class="listTheme__title">Liste des thèmes</h2> -->
             <h2 class="titleRow skew-title">
                   <span>N</span><span>O</span><span class="last">S</span>
                   &nbsp;
@@ -18,6 +17,15 @@ Template Name: Archives des thèmes
             </h2>
             <div class="listTheme__content">
                   <?php
+
+                  $toto = [   
+                        'taxonomy' => 'byAge',                     
+                        'slug'=> '3-6',
+                  ];
+
+                  // var_dump($toto);
+                  // die();
+
                   $wp_query = new WP_Query([
                         'post_type' => 'theme',
                   ]);

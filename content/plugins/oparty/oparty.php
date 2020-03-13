@@ -7,19 +7,32 @@ Version: 1.0.0
 */
 
 // Sécurisation
-if (!defined('WPINC')) {die();}
+if (!defined('WPINC')) {
+    die();
+}
 
 class oParty
 {
     public function __construct()
     {
         add_action('init', [$this, 'registerCpt']);
-        add_action('init', [$this, 'registerTaxonomies']);
+        add_action('init', [$this, 'registerTaxo']);
+        add_action('get_template_part_template-parts/newsletter/newsletter', [$this, 'newsOparty']);
     }
 
     public function registerCpt()
     {
         $this->registerCptTheme();
+    }
+
+    public function registerTaxo()
+    {
+        $this->registerTaxonomies();
+    }
+
+    public function newsOparty()
+    {
+        $this->newsletterOparty();
     }
 
     private function registerCptTheme()
@@ -61,7 +74,7 @@ class oParty
         register_post_type('theme', $args);
     }
 
-    public function registerTaxonomies()
+    private function registerTaxonomies()
     {
         register_taxonomy(
             'byAge',
@@ -104,9 +117,27 @@ class oParty
                 'show_admin_column' => true
             ]
         );
-      }
+    }
 
- 
+    private function newsletterOparty(){
+        global $wpdb;
+
+        $email = !empty($_POST['mailNewsletter']) ? $_POST['mailNewsletter'] : NULL;
+        
+        
+        if ($email) {
+              if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                    $table = $wpdb->prefix . 'newsletter';
+                    $data = ['email' => $email];
+                    $format = ['%s'];      
+                    $wpdb->insert($table, $data, $format);
+              } else 
+              {
+                    echo ('MERCI DE RENTRER UN EMAIL VALIDE');
+              }      
+        }
+    }
+
     public function activate()
     {
         // J'execute la méthode de mon plugin qui permet de déclarer mes nouvelles routes (mon CPT)
