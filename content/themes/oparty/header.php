@@ -39,7 +39,7 @@
           </li>
           <!--Link Qui sommes-nous?-->
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="http://localhost/oparty/qui-sommes-nous/">
               <div class="icon">
                 <i class="fa fa-users header__menu__ul__li__a__icon__i"></i>
                 <i class="fa fa-users header__menu__ul__li__a__icon__i"></i>
@@ -59,7 +59,7 @@
           </li>
           <!--Livre d'or-->
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="http://localhost/oparty/livre-dor/">
               <div class="icon">
                 <i class="fa fa-book header__menu__ul__li__a__icon__i"></i>
                 <i class="fa fa-book header__menu__ul__li__a__icon__i"></i>
