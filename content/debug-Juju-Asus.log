@@ -1,0 +1,215 @@
+[09-Mar-2020 09:51:55 UTC] PHP Notice:  Thème sans header.php est <strong>obsolète</strong> depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de header.php à votre thème. in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\functions.php on line 4805
+[09-Mar-2020 09:51:55 UTC] PHP Stack trace:
+[09-Mar-2020 09:51:55 UTC] PHP   1. {main}() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:0
+[09-Mar-2020 09:51:55 UTC] PHP   2. require() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:17
+[09-Mar-2020 09:51:55 UTC] PHP   3. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-blog-header.php:19
+[09-Mar-2020 09:51:55 UTC] PHP   4. include() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\template-loader.php:98
+[09-Mar-2020 09:51:55 UTC] PHP   5. get_header() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\index.php:1
+[09-Mar-2020 09:51:55 UTC] PHP   6. locate_template() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\general-template.php:41
+[09-Mar-2020 09:51:55 UTC] PHP   7. load_template() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\template.php:671
+[09-Mar-2020 09:51:55 UTC] PHP   8. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\template.php:722
+[09-Mar-2020 09:51:55 UTC] PHP   9. _deprecated_file() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\theme-compat\header.php:15
+[09-Mar-2020 09:51:55 UTC] PHP  10. trigger_error() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\functions.php:4805
+[09-Mar-2020 09:51:55 UTC] PHP Notice:  Thème sans footer.php est <strong>obsolète</strong> depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de footer.php à votre thème. in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\functions.php on line 4805
+[09-Mar-2020 09:51:55 UTC] PHP Stack trace:
+[09-Mar-2020 09:51:55 UTC] PHP   1. {main}() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:0
+[09-Mar-2020 09:51:55 UTC] PHP   2. require() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:17
+[09-Mar-2020 09:51:55 UTC] PHP   3. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-blog-header.php:19
+[09-Mar-2020 09:51:55 UTC] PHP   4. include() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\template-loader.php:98
+[09-Mar-2020 09:51:55 UTC] PHP   5. get_footer() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\index.php:14
+[09-Mar-2020 09:51:55 UTC] PHP   6. locate_template() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\general-template.php:76
+[09-Mar-2020 09:51:55 UTC] PHP   7. load_template() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\template.php:671
+[09-Mar-2020 09:51:55 UTC] PHP   8. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\template.php:722
+[09-Mar-2020 09:51:55 UTC] PHP   9. _deprecated_file() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\theme-compat\footer.php:15
+[09-Mar-2020 09:51:55 UTC] PHP  10. trigger_error() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\functions.php:4805
+[09-Mar-2020 09:52:05 UTC] PHP Notice:  Trying to get property 'post_status' of non-object in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\class-wp-customize-manager.php on line 2545
+[09-Mar-2020 09:52:05 UTC] PHP Stack trace:
+[09-Mar-2020 09:52:05 UTC] PHP   1. {main}() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\admin-ajax.php:0
+[09-Mar-2020 09:52:05 UTC] PHP   2. do_action() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\admin-ajax.php:175
+[09-Mar-2020 09:52:05 UTC] PHP   3. WP_Hook->do_action() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\plugin.php:478
+[09-Mar-2020 09:52:05 UTC] PHP   4. WP_Hook->apply_filters() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\class-wp-hook.php:312
+[09-Mar-2020 09:52:05 UTC] PHP   5. WP_Customize_Manager->save() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\class-wp-hook.php:288
+[09-Mar-2020 09:52:05 UTC] PHP Notice:  Trying to get property 'ID' of non-object in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\class-wp-customize-manager.php on line 2551
+[09-Mar-2020 09:52:05 UTC] PHP Stack trace:
+[09-Mar-2020 09:52:05 UTC] PHP   1. {main}() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\admin-ajax.php:0
+[09-Mar-2020 09:52:05 UTC] PHP   2. do_action() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\admin-ajax.php:175
+[09-Mar-2020 09:52:05 UTC] PHP   3. WP_Hook->do_action() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\plugin.php:478
+[09-Mar-2020 09:52:05 UTC] PHP   4. WP_Hook->apply_filters() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\class-wp-hook.php:312
+[09-Mar-2020 09:52:05 UTC] PHP   5. WP_Customize_Manager->save() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\class-wp-hook.php:288
+[09-Mar-2020 10:13:57 UTC] PHP Warning:  require(inc/enqueue.php): failed to open stream: No such file or directory in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\functions.php on line 4
+[09-Mar-2020 10:13:57 UTC] PHP Stack trace:
+[09-Mar-2020 10:13:57 UTC] PHP   1. {main}() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\admin-ajax.php:0
+[09-Mar-2020 10:13:57 UTC] PHP   2. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\admin-ajax.php:22
+[09-Mar-2020 10:13:57 UTC] PHP   3. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-load.php:42
+[09-Mar-2020 10:13:57 UTC] PHP   4. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp-config.php:189
+[09-Mar-2020 10:13:57 UTC] PHP   5. include() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-settings.php:497
+[09-Mar-2020 10:13:57 UTC] PHP Fatal error:  require(): Failed opening required 'inc/enqueue.php' (include_path='.;C:/laragon/etc/php/pear') in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\functions.php on line 4
+[09-Mar-2020 10:13:57 UTC] PHP Stack trace:
+[09-Mar-2020 10:13:57 UTC] PHP   1. {main}() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\admin-ajax.php:0
+[09-Mar-2020 10:13:57 UTC] PHP   2. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\admin-ajax.php:22
+[09-Mar-2020 10:13:57 UTC] PHP   3. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-load.php:42
+[09-Mar-2020 10:13:57 UTC] PHP   4. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp-config.php:189
+[09-Mar-2020 10:13:57 UTC] PHP   5. include() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-settings.php:497
+[09-Mar-2020 10:14:38 UTC] PHP Warning:  require(inc/enqueue.php): failed to open stream: No such file or directory in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\functions.php on line 4
+[09-Mar-2020 10:14:38 UTC] PHP Stack trace:
+[09-Mar-2020 10:14:38 UTC] PHP   1. {main}() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:0
+[09-Mar-2020 10:14:38 UTC] PHP   2. require() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:17
+[09-Mar-2020 10:14:38 UTC] PHP   3. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-blog-header.php:13
+[09-Mar-2020 10:14:38 UTC] PHP   4. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-load.php:42
+[09-Mar-2020 10:14:38 UTC] PHP   5. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp-config.php:189
+[09-Mar-2020 10:14:38 UTC] PHP   6. include() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-settings.php:497
+[09-Mar-2020 10:14:38 UTC] PHP Fatal error:  require(): Failed opening required 'inc/enqueue.php' (include_path='.;C:/laragon/etc/php/pear') in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\functions.php on line 4
+[09-Mar-2020 10:14:38 UTC] PHP Stack trace:
+[09-Mar-2020 10:14:38 UTC] PHP   1. {main}() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:0
+[09-Mar-2020 10:14:38 UTC] PHP   2. require() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:17
+[09-Mar-2020 10:14:38 UTC] PHP   3. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-blog-header.php:13
+[09-Mar-2020 10:14:38 UTC] PHP   4. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-load.php:42
+[09-Mar-2020 10:14:38 UTC] PHP   5. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp-config.php:189
+[09-Mar-2020 10:14:38 UTC] PHP   6. include() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-settings.php:497
+[09-Mar-2020 12:28:10 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\plugins\oparty\oparty.php on line 96
+[09-Mar-2020 12:33:20 UTC] PHP Notice:  map_meta_cap est appelée de la mauvaise manière. Le type de publication project n’est pas enregistré. Il n’est donc pas possible de vérifier de manière fiable que la permission « edit_post » correspond à ce type de publication. Veuillez lire <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Débogage dans WordPress</a> (en) pour plus d’informations. (Ce message a été ajouté à la version 4.4.0.) in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\functions.php on line 4986
+[09-Mar-2020 12:33:20 UTC] PHP Stack trace:
+[09-Mar-2020 12:33:20 UTC] PHP   1. {main}() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\admin-ajax.php:0
+[09-Mar-2020 12:33:20 UTC] PHP   2. do_action() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\admin-ajax.php:175
+[09-Mar-2020 12:33:20 UTC] PHP   3. WP_Hook->do_action() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\plugin.php:478
+[09-Mar-2020 12:33:20 UTC] PHP   4. WP_Hook->apply_filters() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\class-wp-hook.php:312
+[09-Mar-2020 12:33:20 UTC] PHP   5. wp_ajax_wp_remove_post_lock() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\class-wp-hook.php:288
+[09-Mar-2020 12:33:20 UTC] PHP   6. current_user_can() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\includes\ajax-actions.php:2812
+[09-Mar-2020 12:33:20 UTC] PHP   7. WP_User->has_cap() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\capabilities.php:658
+[09-Mar-2020 12:33:20 UTC] PHP   8. map_meta_cap() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\class-wp-user.php:749
+[09-Mar-2020 12:33:20 UTC] PHP   9. _doing_it_wrong() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\capabilities.php:160
+[09-Mar-2020 12:33:20 UTC] PHP  10. trigger_error() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\functions.php:4986
+[09-Mar-2020 12:43:23 UTC] PHP Notice:  Trying to get property 'show_ui' of non-object in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\includes\class-wp-terms-list-table.php on line 560
+[09-Mar-2020 12:43:23 UTC] PHP Stack trace:
+[09-Mar-2020 12:43:23 UTC] PHP   1. {main}() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\admin-ajax.php:0
+[09-Mar-2020 12:43:23 UTC] PHP   2. do_action() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\admin-ajax.php:175
+[09-Mar-2020 12:43:23 UTC] PHP   3. WP_Hook->do_action() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\plugin.php:478
+[09-Mar-2020 12:43:23 UTC] PHP   4. WP_Hook->apply_filters() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\class-wp-hook.php:312
+[09-Mar-2020 12:43:23 UTC] PHP   5. wp_ajax_add_tag() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\class-wp-hook.php:288
+[09-Mar-2020 12:43:23 UTC] PHP   6. WP_Terms_List_Table->single_row() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\includes\ajax-actions.php:1100
+[09-Mar-2020 12:43:23 UTC] PHP   7. WP_Terms_List_Table->single_row_columns() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\includes\class-wp-terms-list-table.php:348
+[09-Mar-2020 12:43:23 UTC] PHP   8. WP_Terms_List_Table->column_posts() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\includes\class-wp-list-table.php:1356
+[09-Mar-2020 12:43:29 UTC] PHP Notice:  Trying to get property 'show_ui' of non-object in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\includes\class-wp-terms-list-table.php on line 560
+[09-Mar-2020 12:43:29 UTC] PHP Stack trace:
+[09-Mar-2020 12:43:29 UTC] PHP   1. {main}() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\admin-ajax.php:0
+[09-Mar-2020 12:43:29 UTC] PHP   2. do_action() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\admin-ajax.php:175
+[09-Mar-2020 12:43:29 UTC] PHP   3. WP_Hook->do_action() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\plugin.php:478
+[09-Mar-2020 12:43:29 UTC] PHP   4. WP_Hook->apply_filters() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\class-wp-hook.php:312
+[09-Mar-2020 12:43:29 UTC] PHP   5. wp_ajax_add_tag() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\class-wp-hook.php:288
+[09-Mar-2020 12:43:29 UTC] PHP   6. WP_Terms_List_Table->single_row() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\includes\ajax-actions.php:1100
+[09-Mar-2020 12:43:29 UTC] PHP   7. WP_Terms_List_Table->single_row_columns() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\includes\class-wp-terms-list-table.php:348
+[09-Mar-2020 12:43:29 UTC] PHP   8. WP_Terms_List_Table->column_posts() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\includes\class-wp-list-table.php:1356
+[09-Mar-2020 13:40:33 UTC] PHP Notice:  Array to string conversion in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\front-page.php on line 12
+[09-Mar-2020 13:40:33 UTC] PHP Stack trace:
+[09-Mar-2020 13:40:33 UTC] PHP   1. {main}() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:0
+[09-Mar-2020 13:40:33 UTC] PHP   2. require() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:17
+[09-Mar-2020 13:40:33 UTC] PHP   3. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-blog-header.php:19
+[09-Mar-2020 13:40:33 UTC] PHP   4. include() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\template-loader.php:98
+[10-Mar-2020 10:04:42 UTC] PHP Notice:  Trying to get property 'slug' of non-object in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\front-page.php on line 18
+[10-Mar-2020 10:04:42 UTC] PHP Stack trace:
+[10-Mar-2020 10:04:42 UTC] PHP   1. {main}() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:0
+[10-Mar-2020 10:04:42 UTC] PHP   2. require() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:17
+[10-Mar-2020 10:04:42 UTC] PHP   3. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-blog-header.php:19
+[10-Mar-2020 10:04:42 UTC] PHP   4. include() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\template-loader.php:98
+[10-Mar-2020 10:05:46 UTC] PHP Notice:  Trying to get property 'name' of non-object in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\front-page.php on line 18
+[10-Mar-2020 10:05:46 UTC] PHP Stack trace:
+[10-Mar-2020 10:05:46 UTC] PHP   1. {main}() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:0
+[10-Mar-2020 10:05:46 UTC] PHP   2. require() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:17
+[10-Mar-2020 10:05:46 UTC] PHP   3. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-blog-header.php:19
+[10-Mar-2020 10:05:46 UTC] PHP   4. include() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\template-loader.php:98
+[10-Mar-2020 10:08:23 UTC] PHP Notice:  Trying to get property 'slug' of non-object in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\front-page.php on line 18
+[10-Mar-2020 10:08:23 UTC] PHP Stack trace:
+[10-Mar-2020 10:08:23 UTC] PHP   1. {main}() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:0
+[10-Mar-2020 10:08:23 UTC] PHP   2. require() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:17
+[10-Mar-2020 10:08:23 UTC] PHP   3. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-blog-header.php:19
+[10-Mar-2020 10:08:23 UTC] PHP   4. include() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\template-loader.php:98
+[10-Mar-2020 10:18:08 UTC] PHP Parse error:  syntax error, unexpected end of file in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\front-page.php on line 86
+[10-Mar-2020 10:18:38 UTC] PHP Parse error:  syntax error, unexpected end of file in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\front-page.php on line 86
+[10-Mar-2020 10:19:20 UTC] PHP Parse error:  syntax error, unexpected end of file in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\front-page.php on line 86
+[10-Mar-2020 10:19:37 UTC] PHP Parse error:  syntax error, unexpected end of file in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\front-page.php on line 86
+[10-Mar-2020 10:20:06 UTC] PHP Parse error:  syntax error, unexpected end of file in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\front-page.php on line 85
+[10-Mar-2020 10:21:06 UTC] PHP Parse error:  syntax error, unexpected end of file in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\front-page.php on line 84
+[10-Mar-2020 10:36:06 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'oparty'@'localhost' (using password: YES) in C:\Users\didij\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\wp-db.php on line 1633
+[10-Mar-2020 10:36:06 UTC] PHP Stack trace:
+[10-Mar-2020 10:36:06 UTC] PHP   1. {main}() C:\Users\didij\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\index.php:0
+[10-Mar-2020 10:36:06 UTC] PHP   2. require_once() C:\Users\didij\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\index.php:10
+[10-Mar-2020 10:36:06 UTC] PHP   3. require_once() C:\Users\didij\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-admin\admin.php:34
+[10-Mar-2020 10:36:06 UTC] PHP   4. require_once() C:\Users\didij\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-load.php:42
+[10-Mar-2020 10:36:06 UTC] PHP   5. require_once() C:\Users\didij\OneDrive\Documents\5_Dev\Site_Web\oparty\wp-config.php:189
+[10-Mar-2020 10:36:06 UTC] PHP   6. require_wp_db() C:\Users\didij\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-settings.php:116
+[10-Mar-2020 10:36:06 UTC] PHP   7. wpdb->__construct() C:\Users\didij\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\load.php:425
+[10-Mar-2020 10:36:06 UTC] PHP   8. wpdb->db_connect() C:\Users\didij\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\wp-db.php:632
+[10-Mar-2020 10:36:06 UTC] PHP   9. mysqli_real_connect() C:\Users\didij\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\wp-db.php:1633
+[10-Mar-2020 10:41:58 UTC] PHP Parse error:  syntax error, unexpected end of file in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\front-page.php on line 79
+[10-Mar-2020 11:02:46 UTC] PHP Parse error:  syntax error, unexpected end of file in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\front-page.php on line 84
+[10-Mar-2020 11:04:59 UTC] PHP Parse error:  syntax error, unexpected end of file in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\front-page.php on line 83
+[10-Mar-2020 12:51:05 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\template-parts\home-carousel.php on line 63
+[10-Mar-2020 12:53:40 UTC] PHP Parse error:  syntax error, unexpected end of file in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\template-parts\home-carousel.php on line 58
+[10-Mar-2020 13:04:26 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\template-parts\home-carousel.php on line 27
+[10-Mar-2020 13:25:06 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\post-template.php on line 316
+[10-Mar-2020 13:25:06 UTC] PHP Stack trace:
+[10-Mar-2020 13:25:06 UTC] PHP   1. {main}() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:0
+[10-Mar-2020 13:25:06 UTC] PHP   2. require() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:17
+[10-Mar-2020 13:25:06 UTC] PHP   3. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-blog-header.php:19
+[10-Mar-2020 13:25:06 UTC] PHP   4. include() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\template-loader.php:98
+[10-Mar-2020 13:25:06 UTC] PHP   5. the_content() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\single-theme.php:7
+[10-Mar-2020 13:25:06 UTC] PHP   6. get_the_content() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\post-template.php:244
+[10-Mar-2020 13:25:21 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\post-template.php on line 316
+[10-Mar-2020 13:25:21 UTC] PHP Stack trace:
+[10-Mar-2020 13:25:21 UTC] PHP   1. {main}() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:0
+[10-Mar-2020 13:25:21 UTC] PHP   2. require() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:17
+[10-Mar-2020 13:25:21 UTC] PHP   3. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-blog-header.php:19
+[10-Mar-2020 13:25:21 UTC] PHP   4. include() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\template-loader.php:98
+[10-Mar-2020 13:25:21 UTC] PHP   5. the_content() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\single-theme.php:7
+[10-Mar-2020 13:25:21 UTC] PHP   6. get_the_content() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\post-template.php:244
+[10-Mar-2020 13:25:23 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\post-template.php on line 316
+[10-Mar-2020 13:25:23 UTC] PHP Stack trace:
+[10-Mar-2020 13:25:23 UTC] PHP   1. {main}() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:0
+[10-Mar-2020 13:25:23 UTC] PHP   2. require() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:17
+[10-Mar-2020 13:25:23 UTC] PHP   3. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-blog-header.php:19
+[10-Mar-2020 13:25:23 UTC] PHP   4. include() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\template-loader.php:98
+[10-Mar-2020 13:25:23 UTC] PHP   5. the_content() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\single-theme.php:7
+[10-Mar-2020 13:25:23 UTC] PHP   6. get_the_content() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\post-template.php:244
+[10-Mar-2020 13:41:34 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\post-template.php on line 316
+[10-Mar-2020 13:41:34 UTC] PHP Stack trace:
+[10-Mar-2020 13:41:34 UTC] PHP   1. {main}() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:0
+[10-Mar-2020 13:41:34 UTC] PHP   2. require() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:17
+[10-Mar-2020 13:41:34 UTC] PHP   3. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-blog-header.php:19
+[10-Mar-2020 13:41:34 UTC] PHP   4. include() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\template-loader.php:98
+[10-Mar-2020 13:41:34 UTC] PHP   5. the_content() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\single-theme.php:7
+[10-Mar-2020 13:41:34 UTC] PHP   6. get_the_content() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\post-template.php:244
+[10-Mar-2020 13:44:20 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\post-template.php on line 316
+[10-Mar-2020 13:44:20 UTC] PHP Stack trace:
+[10-Mar-2020 13:44:20 UTC] PHP   1. {main}() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:0
+[10-Mar-2020 13:44:20 UTC] PHP   2. require() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:17
+[10-Mar-2020 13:44:20 UTC] PHP   3. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-blog-header.php:19
+[10-Mar-2020 13:44:20 UTC] PHP   4. include() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\template-loader.php:98
+[10-Mar-2020 13:44:20 UTC] PHP   5. the_content() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\single-theme.php:7
+[10-Mar-2020 13:44:20 UTC] PHP   6. get_the_content() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\post-template.php:244
+[10-Mar-2020 13:45:10 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\post-template.php on line 316
+[10-Mar-2020 13:45:10 UTC] PHP Stack trace:
+[10-Mar-2020 13:45:10 UTC] PHP   1. {main}() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:0
+[10-Mar-2020 13:45:10 UTC] PHP   2. require() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:17
+[10-Mar-2020 13:45:10 UTC] PHP   3. require_once() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-blog-header.php:19
+[10-Mar-2020 13:45:10 UTC] PHP   4. include() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\template-loader.php:98
+[10-Mar-2020 13:45:10 UTC] PHP   5. the_content() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\single-theme.php:7
+[10-Mar-2020 13:45:10 UTC] PHP   6. get_the_content() F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\post-template.php:244
+[10-Mar-2020 13:47:37 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function the_editor(), 0 passed in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\single-theme.php on line 7 and at least 1 expected in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\deprecated.php:2584
+Stack trace:
+#0 F:\OneDrive\Documents\5_Dev\Site_Web\oparty\content\themes\oparty\single-theme.php(7): the_editor()
+#1 F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\template-loader.php(98): include('F:\\OneDrive\\Doc...')
+#2 F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-blog-header.php(19): require_once('F:\\OneDrive\\Doc...')
+#3 F:\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php(17): require('F:\\OneDrive\\Doc...')
+#4 {main}
+  thrown in F:\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\deprecated.php on line 2584
+[13-Mar-2020 14:49:14 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'oparty'@'localhost' (using password: YES) in C:\Users\didij\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\wp-db.php on line 1633
+[13-Mar-2020 14:49:14 UTC] PHP Stack trace:
+[13-Mar-2020 14:49:14 UTC] PHP   1. {main}() C:\Users\didij\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:0
+[13-Mar-2020 14:49:14 UTC] PHP   2. require() C:\Users\didij\OneDrive\Documents\5_Dev\Site_Web\oparty\index.php:17
+[13-Mar-2020 14:49:14 UTC] PHP   3. require_once() C:\Users\didij\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-blog-header.php:13
+[13-Mar-2020 14:49:14 UTC] PHP   4. require_once() C:\Users\didij\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-load.php:42
+[13-Mar-2020 14:49:14 UTC] PHP   5. require_once() C:\Users\didij\OneDrive\Documents\5_Dev\Site_Web\oparty\wp-config.php:189
+[13-Mar-2020 14:49:14 UTC] PHP   6. require_wp_db() C:\Users\didij\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-settings.php:116
+[13-Mar-2020 14:49:14 UTC] PHP   7. wpdb->__construct() C:\Users\didij\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\load.php:425
+[13-Mar-2020 14:49:14 UTC] PHP   8. wpdb->db_connect() C:\Users\didij\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\wp-db.php:632
+[13-Mar-2020 14:49:14 UTC] PHP   9. mysqli_real_connect() C:\Users\didij\OneDrive\Documents\5_Dev\Site_Web\oparty\wp\wp-includes\wp-db.php:1633
