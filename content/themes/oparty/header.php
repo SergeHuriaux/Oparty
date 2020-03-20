@@ -69,9 +69,10 @@
           </li>
         </ul>
         <form class="form-inline d-flex justify-content-center md-form form-sm  my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <?php echo do_shortcode('[wpdreams_ajaxsearchlite]'); ?>
+          <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline my-2 my-sm-0" type="submit"><i class="fa fa-search"
-              aria-hidden="true"></i></button>
+              aria-hidden="true"></i></button> -->
         </form>
       </div>
     </nav>
