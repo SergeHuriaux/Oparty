@@ -17,32 +17,51 @@ Template Name: Archives des thèmes
             </h2>
             <div class="listTheme__content">
                   <?php
+                  $taxonomy = 'byAge';
+                  $name = !empty($_POST['age']) ? $_POST['age'] : NULL;
+                  $term_args = array(
+                        'taxonomy'   => $taxonomy,
+                        'hide_empty' => false,
+                        'fields'     => 'all',
+                        'count'      => true,
+                        'name'   => $name,
+                  );
 
-                  $toto = [   
-                        'taxonomy' => 'byAge',                     
-                        'slug'=> '3-6',
-                  ];
+                  $term_query = new WP_Term_Query($term_args);
+                  $terms = $term_query->terms;
+                  if (isset($terms) and sizeof($terms) > 0) {
+                        foreach ($terms as $term) {
+                              $term_id = $term->term_id;
 
-                  // var_dump($toto);
-                  // die();
+                              $args = array(
+                                    'post_type' => 'theme',
+                                    'tax_query' => array(
+                                          array(
+                                                'taxonomy' => $taxonomy,
+                                                'field' => 'term_id',
+                                                'terms' => $term_id
+                                          )
+                                    )
+                              );
+                              $wp_query = new WP_Query($args);
+                              // var_dump($query);
+                              // die();
 
-                  $wp_query = new WP_Query([
-                        'post_type' => 'theme',
-                  ]);
-                  if ($wp_query->have_posts()) : while ($wp_query->have_posts()) : $wp_query->the_post();
-                  $excerpt = get_the_excerpt();
-                  ?>
-                              <div class="listTheme__content__card" style="background-image: url('<?php the_post_thumbnail_url(); ?>')">
-                                    <div class="listTheme__content__card__content">
-                                          <h3 class="listTheme__content__card__content--title"><?php the_title() ?></h3>
-                                          <p class="listTheme__content__card__content--copy"><?= substr($excerpt, 0, 50); ?></p>
-                                          <a href="<?php the_permalink(); ?>" class="listTheme__content__card__content--btn">Lire la suite</a>
-                                    </div>
-                              </div>
+                              if ($wp_query->have_posts()) : while ($wp_query->have_posts()) : $wp_query->the_post();
+                                          $excerpt = get_the_excerpt(); ?>
+                                          <div class="listTheme__content__card" style="background-image: url('<?php the_post_thumbnail_url(); ?>')">
+                                                <div class="listTheme__content__card__content">
+                                                      <h3 class="listTheme__content__card__content--title"><?php the_title() ?></h3>
+                                                      <p class="listTheme__content__card__content--copy"><?= substr($excerpt, 0, 50); ?></p>
+                                                      <a href="<?php the_permalink(); ?>" class="listTheme__content__card__content--btn">Lire la suite</a>
+                                                </div>
+                                          </div>
                   <?php
-                        endwhile;
-                        wp_reset_postdata();
-                  endif;
+                                    endwhile;
+                                    wp_reset_postdata();
+                              endif;
+                        }
+                  }
                   ?>
             </div>
       </section>

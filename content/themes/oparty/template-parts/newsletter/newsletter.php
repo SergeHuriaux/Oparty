@@ -4,7 +4,9 @@
                   <input type="email" class="form-control" name="mailNewsletter" id="newsletter" placeholder="Inscrivez-vous à notre newsletter" required>
             </div>
             <div class="form-group col-md-2">
-                  <button type="submit" class="btn btn-primary">Envoyer</button>
+                  <button class="buttonNews button-mat btn--7">
+                        <div class="psuedo-text">S'inscrire</div>
+                  </button>
             </div>
       </div>
 </form>
