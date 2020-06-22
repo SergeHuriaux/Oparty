@@ -31,3 +31,4 @@ sudo chmod 644 .htaccess
 - Se rendre sur l'url locale de notre projet pour terminer l'installation de WordPress
 - Penser à changer l'url de la home de notre projet
   - Admin BO > Réglages > Général > Adresse web du site (URL)
+# Oparty
